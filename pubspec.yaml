@@ -1,0 +1,15 @@
+name: dartbyexample
+dependencies:
+  flare: "^0.6.0"
+transformers:
+- flare/metadata_extractor
+- flare/metadata_translator
+- flare/markdown_transformer
+- flare/posts_transformer:
+    root: web/examples
+    layout: web/examples/_example.tmpl.html
+- flare/partials_transformer
+- flare/metadata_aggregator
+- flare/mustache_transformer
+- flare/html_optimizer
+- flare/cleanup_transformer
