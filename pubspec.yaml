@@ -1,6 +1,8 @@
 name: dartbyexample
 dependencies:
-  flare: "^0.6.0"
+#  flare: "^0.6.0"
+  flare:
+    path: ../../cloned/dart-flare
   sass: any
 transformers:
 - sass
@@ -13,10 +15,13 @@ transformers:
 - flare/partials_transformer
 - flare/metadata_aggregator
 - flare/mustache_transformer
-- flare/html_optimizer
 - flare/cleanup_transformer
 dependency_overrides:
   markdown:
     git:
       url: git@github.com:johnpryan/dart-markdown.git
       ref: hljs
+  mustache:
+    git:
+      url: git@github.com:johnpryan/mustache.git
+      ref: fix-newlines
