@@ -1,7 +1,9 @@
 name: dartbyexample
 dependencies:
   flare: "^0.6.0"
+  sass: any
 transformers:
+- sass
 - flare/metadata_extractor
 - flare/metadata_translator
 - flare/markdown_transformer
@@ -13,3 +15,8 @@ transformers:
 - flare/mustache_transformer
 - flare/html_optimizer
 - flare/cleanup_transformer
+dependency_overrides:
+  markdown:
+    git:
+      url: git@github.com:johnpryan/dart-markdown.git
+      ref: hljs

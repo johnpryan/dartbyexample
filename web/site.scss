@@ -1,0 +1,85 @@
+@import 'reset';
+
+$content-width: 420px;
+$example-width: 600px;
+$code-bg-color: #e5e9f0;
+$font-size: 16px;
+$code-size: 13px;
+$header-size: 32px;
+
+body {
+    font-family: 'Georgia', serif;
+    font-size: $font-size;
+    line-height: 20px;
+    color: #252519;
+}
+
+em {
+    font-style: italic;
+}
+
+a, a:visited {
+    color: #261a3b;
+}
+
+h2 {
+    font-size: $header-size;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+div.example {
+    width: $example-width;
+    min-width: $example-width;
+    max-width: $example-width;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+
+.footer, .footer a, .footer a:visited {
+    color: grey;
+}
+
+div#intro {
+    width: $content-width;
+    min-width: $content-width;
+    max-width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+
+div#intro p {
+    padding-top: 20px;
+}
+
+div#intro ul {
+    padding-top: 20px;
+}
+
+pre, code {
+    font-size: $code-size;
+    line-height: 18px;
+    font-family: 'Menlo', 'Monaco', 'Consolas', 'Lucida Console', monospace;
+    white-space: pre;
+}
+
+pre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: $code-bg-color;
+}
+
+img.run {
+    height: 16px;
+    width: 16px;
+    float: right
+}

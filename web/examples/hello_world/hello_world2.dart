@@ -1,1 +1,1 @@
-main() => print('hello dart');
+main() => print('Hello, World!');
