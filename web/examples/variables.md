@@ -9,4 +9,8 @@ title: Variables
 
 ```bash
 $ dart variables.dart
+initial
+42
+99
+44.0
 ```
