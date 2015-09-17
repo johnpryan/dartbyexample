@@ -1,8 +1,6 @@
 name: dartbyexample
 dependencies:
-#  flare: "^0.6.0"
-  flare:
-    path: ../../cloned/dart-flare
+  flare: "^0.6.0"
   sass: any
 transformers:
 - sass

@@ -38,10 +38,8 @@ packages:
     source: hosted
     version: "0.9.1+2"
   flare:
-    description:
-      path: "../../cloned/dart-flare"
-      relative: true
-    source: path
+    description: flare
+    source: hosted
     version: "0.6.1"
   html:
     description: html
@@ -85,6 +83,10 @@ packages:
     description: pool
     source: hosted
     version: "1.1.0"
+  quiver:
+    description: quiver
+    source: hosted
+    version: "0.18.2"
   sass:
     description: sass
     source: hosted
