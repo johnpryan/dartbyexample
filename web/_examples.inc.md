@@ -8,6 +8,8 @@
 
 TODO: 
 
+basics:
+
 - [While](examples/while.html)
 - [Switch](examples/switch.html)
 - [List](examples/list.html)
@@ -15,11 +17,15 @@ TODO:
 - [Set](examples/Set.html)
 - [Queue](examples/queue.html)
 
+functions:
+
 - [Functions](examples/functions.html)
 - [Optional Parameters](examples/optional-parameters.html)
 - [Named Optional Parameters](examples/optional-parameters.html)
 - [Lexical Scope](examples/lexical-scope.html)
 - [Function Types (typedef)](examples/typedef.html)
+
+classes:
 
 - [Constants](examples/const.html)
 - [Final](examples/Const.html)
@@ -30,10 +36,13 @@ TODO:
 - [Initializer Lists](examples/initializer-lists.html)
 - [Getters and Setters](examples/getters-setters.html)
 
+organization:
+
 - [Libraries](examples/libraries.html)
 - [Packages](examples/packages.html)
 - [Comments](examples/comments.html)
 
+asynchrony:
 
 - [Future](examples/future.html)
 - [Stream](examples/stream.html)
@@ -45,6 +54,9 @@ TODO:
 - [async*](examples/async-star.html)
 - [await for](examples/await-for.html)
 - [yield*](examples/yield-star.html)
+
+
+other:
 
 - [Emulating Functions](examples/emulating-functions.html)
 - [Zones](examples/zones.html)
