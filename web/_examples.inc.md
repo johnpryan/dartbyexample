@@ -27,6 +27,7 @@ functions:
 
 classes:
 
+- [Types](examples/types.html)
 - [Constants](examples/const.html)
 - [Final](examples/Const.html)
 - [Classes](examples/classes.html)
