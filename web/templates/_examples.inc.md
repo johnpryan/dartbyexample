@@ -11,12 +11,11 @@
 - [List](examples/list/)
 - [Map](examples/map/)
 - [Set](examples/set/)
+- [Queue](examples/queue/)
 
 TODO: 
 
 basics:
-
-- [Queue](examples/queue.html)
 
 functions:
 
