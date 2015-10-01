@@ -12,8 +12,7 @@ $ dart ifelse.dart
 ```
 
 ```
-newline
-newline
-
-two newline
+7 is odd
+8 is divisble by 4
+monday appointment: doctor
 ```

@@ -5,13 +5,14 @@
 - [Variables](examples/variables/)
 - [For](examples/for/)
 - [If / Else](examples/ifelse/)
+- [Null-Aware Operators](examples/null_aware/)
+- [While](examples/while/)
+- [Switch](examples/switch/)
 
 TODO: 
 
 basics:
 
-- [While](examples/while.html)
-- [Switch](examples/switch.html)
 - [List](examples/list.html)
 - [Map](examples/map.html)
 - [Set](examples/Set.html)

@@ -12,7 +12,7 @@ packages:
   barback:
     description: barback
     source: hosted
-    version: "0.15.2+6"
+    version: "0.15.2+7"
   bignum:
     description: bignum
     source: hosted
@@ -98,7 +98,7 @@ packages:
   source_span:
     description: source_span
     source: hosted
-    version: "1.2.0"
+    version: "1.2.1"
   stack_trace:
     description: stack_trace
     source: hosted
