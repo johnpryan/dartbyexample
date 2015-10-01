@@ -3,7 +3,7 @@ title: List
 -->
 
 <pre>
-<code class="hljs dart">{{> List.dart}}
+<code class="hljs dart">{{> list.dart}}
 </code>
 </pre>
 
@@ -13,6 +13,7 @@ $ dart list.dart
 
 ```bash
 [a, b, c]
-[x, y, z]
+[grow, able]
+[also, growable, 42]
 error
 ```
