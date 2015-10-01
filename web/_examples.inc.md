@@ -1,10 +1,10 @@
 # markdown
 
-- [Hello World](examples/hello-world.html)
-- [Values](examples/values.html)
-- [Variables](examples/variables.html)
-- [For](examples/for.html)
-- [If / Else](examples/ifelse.html)
+- [Hello World](examples/hello_world/)
+- [Values](examples/values/)
+- [Variables](examples/variables/)
+- [For](examples/for/)
+- [If / Else](examples/ifelse/)
 
 TODO: 
 

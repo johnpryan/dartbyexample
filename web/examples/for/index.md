@@ -3,7 +3,7 @@ title: For
 -->
 
 <pre>
-<code class="hljs dart">{{> for/for1.dart}}
+<code class="hljs dart">{{> for1.dart}}
 </code>
 </pre>
 
