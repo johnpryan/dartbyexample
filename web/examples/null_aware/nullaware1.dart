@@ -1,7 +1,7 @@
 main() {
-  var monday = 'doctor';
 
   // The ?? operator returns the first expression IFF it is not null
+  var monday = 'doctor';
   var tuesday;
   var next = tuesday ?? monday;
   print('next appoinment: $next');
@@ -15,4 +15,5 @@ main() {
   String thursday;
   var length = thursday?.length;
   print('length: $length');
+
 }

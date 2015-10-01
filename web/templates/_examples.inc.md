@@ -9,11 +9,12 @@
 - [While](examples/while/)
 - [Switch](examples/switch/)
 - [List](examples/list/)
+- [Map](examples/map/)
 
 TODO: 
 
 basics:
-- [Map](examples/map.html)
+
 - [Set](examples/Set.html)
 - [Queue](examples/queue.html)
 
