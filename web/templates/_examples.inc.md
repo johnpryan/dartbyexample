@@ -10,12 +10,12 @@
 - [Switch](examples/switch/)
 - [List](examples/list/)
 - [Map](examples/map/)
+- [Set](examples/set/)
 
 TODO: 
 
 basics:
 
-- [Set](examples/Set.html)
 - [Queue](examples/queue.html)
 
 functions:
