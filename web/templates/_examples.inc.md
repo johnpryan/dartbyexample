@@ -8,12 +8,11 @@
 - [Null-Aware Operators](examples/null_aware/)
 - [While](examples/while/)
 - [Switch](examples/switch/)
+- [List](examples/list/)
 
 TODO: 
 
 basics:
-
-- [List](examples/list.html)
 - [Map](examples/map.html)
 - [Set](examples/Set.html)
 - [Queue](examples/queue.html)
