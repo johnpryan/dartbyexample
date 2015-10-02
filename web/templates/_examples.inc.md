@@ -1,5 +1,3 @@
-# markdown
-
 - [Hello World](examples/hello_world/)
 - [Values](examples/values/)
 - [Variables](examples/variables/)
@@ -12,6 +10,7 @@
 - [Map](examples/map/)
 - [Set](examples/set/)
 - [Queue](examples/queue/)
+- [Functions](examples/functions/)
 
 TODO: 
 
@@ -19,7 +18,6 @@ basics:
 
 functions:
 
-- [Functions](examples/functions.html)
 - [Optional Parameters](examples/optional-parameters.html)
 - [Named Optional Parameters](examples/optional-parameters.html)
 - [Lexical Scope](examples/lexical-scope.html)
