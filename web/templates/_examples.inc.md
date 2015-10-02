@@ -11,20 +11,13 @@
 - [Set](examples/set/)
 - [Queue](examples/queue/)
 - [Functions](examples/functions/)
+- [Optional Parameters](examples/optional_params/)
 
 TODO: 
 
-basics:
-
-functions:
-
-- [Optional Parameters](examples/optional-parameters.html)
 - [Named Optional Parameters](examples/optional-parameters.html)
 - [Lexical Scope](examples/lexical-scope.html)
 - [Function Types (typedef)](examples/typedef.html)
-
-classes:
-
 - [Types](examples/types.html)
 - [Constants](examples/const.html)
 - [Final](examples/Const.html)
@@ -34,15 +27,9 @@ classes:
 - [Factory Constructors](examples/factory-constructors.html)
 - [Initializer Lists](examples/initializer-lists.html)
 - [Getters and Setters](examples/getters-setters.html)
-
-organization:
-
 - [Libraries](examples/libraries.html)
 - [Packages](examples/packages.html)
 - [Comments](examples/comments.html)
-
-asynchrony:
-
 - [Future](examples/future.html)
 - [Stream](examples/stream.html)
 - [Broadcast Stream](examples/broadcast-stream.html)
@@ -53,10 +40,6 @@ asynchrony:
 - [async*](examples/async-star.html)
 - [await for](examples/await-for.html)
 - [yield*](examples/yield-star.html)
-
-
-other:
-
 - [Emulating Functions](examples/emulating-functions.html)
 - [Zones](examples/zones.html)
 - [Microtask Queue](examples/microtask-queue.html)
