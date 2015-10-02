@@ -6,12 +6,14 @@ $code-bg-color: #e5e9f0;
 $font-size: 16px;
 $code-size: 13px;
 $header-size: 32px;
+$link-color: #004196;
+$text-color: #252519;
 
 body {
     font-family: 'Georgia', serif;
     font-size: $font-size;
     line-height: 20px;
-    color: #252519;
+    color: $text-color;
 }
 
 em {
@@ -19,7 +21,7 @@ em {
 }
 
 a, a:visited {
-    color: #261a3b;
+    color: $link-color;
 }
 
 h2 {
@@ -28,8 +30,9 @@ h2 {
     margin-top: 40px;
 }
 
-h2 a {
+h2 a, h2 a:visited {
     text-decoration: none;
+    color: $text-color;
 }
 
 div.example {
@@ -41,6 +44,9 @@ div.example {
     margin-bottom: 120px;
 }
 
+.footer {
+    padding-top: 10px;
+}
 .footer, .footer a, .footer a:visited {
     color: grey;
 }
