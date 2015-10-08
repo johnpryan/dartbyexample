@@ -16,6 +16,7 @@
 - [Function Types](examples/typedef/)
 - [Constants](examples/const/)
 - [Final](examples/final/)
+- [Static](examples/static/)
 
 TODO: 
 
