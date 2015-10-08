@@ -12,11 +12,10 @@
 - [Queue](examples/queue/)
 - [Functions](examples/functions/)
 - [Optional Parameters](examples/optional_params/)
+- [Lexical Scope](examples/lexical_scope/)
 
 TODO: 
 
-- [Named Optional Parameters](examples/optional-parameters.html)
-- [Lexical Scope](examples/lexical-scope.html)
 - [Function Types (typedef)](examples/typedef.html)
 - [Types](examples/types.html)
 - [Constants](examples/const.html)
