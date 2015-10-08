@@ -13,10 +13,10 @@
 - [Functions](examples/functions/)
 - [Optional Parameters](examples/optional_params/)
 - [Lexical Scope](examples/lexical_scope/)
+- [Function Types](examples/typedef/)
 
 TODO: 
 
-- [Function Types (typedef)](examples/typedef.html)
 - [Types](examples/types.html)
 - [Constants](examples/const.html)
 - [Final](examples/Const.html)
