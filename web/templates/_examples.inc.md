@@ -17,10 +17,10 @@
 - [Constants](examples/const/)
 - [Final](examples/final/)
 - [Static](examples/static/)
+- [Classes](examples/classes/)
 
 TODO: 
 
-- [Classes](examples/classes.html)
 - [Constructors](examples/constructors.html)
 - [Named Constructors](examples/constructors.html)
 - [Factory Constructors](examples/factory-constructors.html)
