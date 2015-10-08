@@ -15,10 +15,10 @@
 - [Lexical Scope](examples/lexical_scope/)
 - [Function Types](examples/typedef/)
 - [Constants](examples/const/)
+- [Final](examples/final/)
 
 TODO: 
 
-- [Final](examples/Const.html)
 - [Classes](examples/classes.html)
 - [Constructors](examples/constructors.html)
 - [Named Constructors](examples/constructors.html)
