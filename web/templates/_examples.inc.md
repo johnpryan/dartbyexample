@@ -18,12 +18,10 @@
 - [Final](examples/final/)
 - [Static](examples/static/)
 - [Classes](examples/classes/)
+- [Constructors](examples/constructors/)
 
 TODO: 
 
-- [Constructors](examples/constructors.html)
-- [Named Constructors](examples/constructors.html)
-- [Factory Constructors](examples/factory-constructors.html)
 - [Initializer Lists](examples/initializer-lists.html)
 - [Getters and Setters](examples/getters-setters.html)
 - [Libraries](examples/libraries.html)
