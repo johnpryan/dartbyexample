@@ -1,1 +1,1 @@
-<h2><a href="/">Dart By Example: </a> {{title}}</h2>
+<h2><a href="../../">Dart By Example: </a> {{title}}</h2>
