@@ -3,7 +3,7 @@ import 'dart:math';
 class Position {
   final int x;
   final int y;
-  final rad;
+  final double rad;
 
   // An initializer list allows
   // fields to be defined before the constructor body.
@@ -11,7 +11,7 @@ class Position {
   Position(int x, int y)
       : this.x = x,
         this.y = y,
-        rad = atan2(x, y);
+        rad = atan2(y, x);
 }
 
 main() {
