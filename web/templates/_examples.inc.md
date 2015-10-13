@@ -21,6 +21,7 @@
 - [Constructors](examples/constructors/)
 - [Initializer Lists](examples/initializer_lists/)
 - [Getters and Setters](examples/getters_setters/)
+- [Inheritance](examples/inheritance/)
 
 TODO: 
 
