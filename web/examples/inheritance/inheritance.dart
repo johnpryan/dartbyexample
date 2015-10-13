@@ -1,5 +1,3 @@
-import 'dart:math';
-
 /// Abstract classes can't be instantiated,
 /// but can contain some implementation.
 abstract class Animal {
