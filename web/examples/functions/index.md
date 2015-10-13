@@ -8,6 +8,7 @@ title: Functions
 </pre>
 
 ```bash
+$ dart functions.dart
 THE WREN
 noiselessly.
 ```

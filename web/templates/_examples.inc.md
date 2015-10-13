@@ -22,10 +22,10 @@
 - [Initializer Lists](examples/initializer_lists/)
 - [Getters and Setters](examples/getters_setters/)
 - [Inheritance](examples/inheritance/)
+- [Libraries](examples/libraries/)
 
 TODO: 
 
-- [Libraries](examples/libraries.html)
 - [Packages](examples/packages.html)
 - [Comments](examples/comments.html)
 - [Future](examples/future.html)

@@ -8,6 +8,7 @@ title: Optional Parameters
 </pre>
 
 ```bash
+$ dart optional_params.dart
 HELLO, WORLD
 HELLO, WORLD!!!
 hello, world...

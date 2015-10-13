@@ -8,6 +8,7 @@ title: Function Types
 </pre>
 
 ```bash
+$ dart typedef.dart
 true
 false
 ```

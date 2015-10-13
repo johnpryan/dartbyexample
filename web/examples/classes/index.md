@@ -8,5 +8,6 @@ title: Classes
 </pre>
 
 ```bash
+$ dart classes.dart
 7.810249675906654
 ```

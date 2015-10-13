@@ -9,9 +9,6 @@ title: List
 
 ```bash
 $ dart list.dart
-```
-
-```bash
 [a, b, c]
 [grow, able]
 [also, growable, 42]

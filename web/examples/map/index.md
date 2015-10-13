@@ -9,9 +9,6 @@ title: Map
 
 ```bash
 $ dart map.dart
-```
-
-```bash
 {blue: false, red: true}
 {square: false, triangle: true}
 square

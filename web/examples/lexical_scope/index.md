@@ -11,6 +11,7 @@ Loops that declare their variable will have a new version of that variable for e
 </pre>
 
 ```bash
+$ dart lexical_scope.dart
 0
 1
 2
@@ -24,6 +25,7 @@ Compared to javascript:
 </pre>
 
 ```bash
+$ node lexical_scope.js
 3
 3
 3

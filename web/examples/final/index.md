@@ -10,6 +10,7 @@ Final objects are immutable
 </pre>
 
 ```bash
+$ dart final.dart
 error
 error
 ```

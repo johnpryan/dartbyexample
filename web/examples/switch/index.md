@@ -9,9 +9,6 @@ title: Switch
 
 ```bash
 $ dart switch.dart
-```
-
-```bash
 L-shape
 diagonal
 ```

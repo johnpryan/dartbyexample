@@ -8,6 +8,7 @@ title: Inheritance
 </pre>
 
 ```bash
+$ inheritance.dart
 Barry has been released: bark!
 Pikachu has been released: pika!
 ```

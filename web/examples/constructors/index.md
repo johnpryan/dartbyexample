@@ -8,6 +8,7 @@ title: Constructors
 </pre>
 
 ```bash
+$ dart constructors.dart
 [30, 40]
 [0, 0]
 [4, 100]

@@ -9,9 +9,6 @@ title: Queue
 
 ```bash
 $ dart queue.dart
-```
-
-```bash
 (300, 200)
 {100, 500}
 ```

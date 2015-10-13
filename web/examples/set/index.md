@@ -9,9 +9,6 @@ title: Set
 
 ```bash
 $ dart set.dart
-```
-
-```bash
 has gold? true
 has platinum? false
 {gold, silver, bronze, breakfast, lunch, dinner}

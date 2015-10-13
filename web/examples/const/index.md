@@ -11,6 +11,7 @@ as the object's deep structure can be determined at compile time.
 </pre>
 
 ```bash
+$ dart const.dart
 greg
 Rectangle (0, 0) 5 x 5
 ```

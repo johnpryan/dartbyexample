@@ -2,7 +2,7 @@
 title: Hello World
 -->
 
-<pre><code class="hljs dart">{{> hello_world1.dart}}</code></pre>
+<pre><code class="hljs dart">{{> hello_world.dart}}</code></pre>
 
 You can also use arrow function syntax:
 

@@ -7,11 +7,8 @@ title: Null-Aware Operators
 </code>
 </pre>
 
-```bash
+```
 $ dart nullaware.dart
-```
-
-```
 next appoinment: doctor
 next appointment: doctor
 length: null

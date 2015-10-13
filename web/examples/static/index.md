@@ -11,6 +11,7 @@ the class itself, instead of on an instance of that class.
 </pre>
 
 ```bash
+$ dart static.dart
 100
 200
 ```

@@ -8,6 +8,7 @@ title: Getters and Setters
 </pre>
 
 ```bash
+$ getters_setters.dart
 x: 10 y: 3
 rad: 0.2914567944778671
 ```
