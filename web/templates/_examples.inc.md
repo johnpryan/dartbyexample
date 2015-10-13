@@ -19,10 +19,10 @@
 - [Static](examples/static/)
 - [Classes](examples/classes/)
 - [Constructors](examples/constructors/)
+- [Initializer Lists](examples/initializer_lists/)
 
 TODO: 
 
-- [Initializer Lists](examples/initializer-lists.html)
 - [Getters and Setters](examples/getters-setters.html)
 - [Libraries](examples/libraries.html)
 - [Packages](examples/packages.html)
