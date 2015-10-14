@@ -24,10 +24,10 @@
 - [Inheritance](examples/inheritance/)
 - [Libraries](examples/libraries/)
 - [Pub](examples/pub/)
+- [Comments](examples/comments/)
 
 TODO: 
 
-- [Comments](examples/comments.html)
 - [Future](examples/future.html)
 - [Stream](examples/stream.html)
 - [Broadcast Stream](examples/broadcast-stream.html)
