@@ -23,10 +23,10 @@
 - [Getters and Setters](examples/getters_setters/)
 - [Inheritance](examples/inheritance/)
 - [Libraries](examples/libraries/)
+- [Pub](examples/pub/)
 
 TODO: 
 
-- [Packages](examples/packages.html)
 - [Comments](examples/comments.html)
 - [Future](examples/future.html)
 - [Stream](examples/stream.html)
