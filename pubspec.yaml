@@ -1,11 +1,13 @@
 name: dartbyexample
 dependencies:
+  barback: ^0.15.2
   flare: "^0.6.0"
   sass: any
 transformers:
 - sass
 - flare/metadata_extractor
 - flare/metadata_translator
+- dartbyexample/bracket_transformer
 - flare/markdown_transformer
 - flare/posts_transformer:
     root: web/examples
