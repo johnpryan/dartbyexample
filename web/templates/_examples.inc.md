@@ -26,10 +26,10 @@
 - [Pub](examples/pub/)
 - [Comments](examples/comments/)
 - [Futures](examples/futures/)
+- [Streams](examples/streams/)
 
 TODO: 
 
-- [Stream](examples/stream.html)
 - [Broadcast Stream](examples/broadcast-stream.html)
 - [Iterator](examples/iterator.html)
 - [Iterable](examples/iterable.html)
