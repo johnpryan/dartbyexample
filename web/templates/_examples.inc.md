@@ -33,10 +33,10 @@
 - [Sync* (Generators)](examples/generators/)
 - [Async*](examples/async_star/)
 - [Await For](examples/await_for/)
+- [Yield*](examples/yield_star/)
 
 TODO: 
 
-- [yield*](examples/yield-star.html)
 - [Emulating Functions](examples/emulating-functions.html)
 - [Zones](examples/zones.html)
 - [Microtask Queue](examples/microtask-queue.html)

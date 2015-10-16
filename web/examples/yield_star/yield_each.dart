@@ -7,8 +7,9 @@ main() async {
 }
 
 Stream<int> numbersDownFrom(int n) async* {
-  while (n >= 0) {
+  if (n >= 0) {
     await new Future.delayed(new Duration(milliseconds: 100));
-    yield n--;
+    yield n;
+    yield* numbersDownFrom(n - 1);
   }
 }
