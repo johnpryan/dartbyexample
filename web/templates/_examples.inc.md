@@ -36,7 +36,5 @@
 - [Yield*](examples/yield_star/)
 - [Zones](examples/zones/)
 - [Microtasks](examples/microtasks/)
+- [Isolates](examples/isolates/)
 
-TODO: 
-
-- [Isolates](examples/isolates.html)
