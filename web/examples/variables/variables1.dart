@@ -11,7 +11,7 @@ main() {
   final num c = 99;
   print(c);
 
-  // const variabels are compile-time constants
+  // const variables are compile-time constants
   const double d = 44.00;
   print(d);
 }

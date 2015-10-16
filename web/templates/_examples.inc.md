@@ -29,10 +29,10 @@
 - [Streams](examples/streams/)
 - [Iterators](examples/iterators/)
 - [Iterables](examples/iterables/)
+- [async / await](examples/async_await/)
 
 TODO: 
 
-- [async / await](examples/async-await.html)
 - [Generators](examples/generators.html)
 - [async*](examples/async-star.html)
 - [await for](examples/await-for.html)
