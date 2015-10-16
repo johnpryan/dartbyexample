@@ -32,10 +32,10 @@
 - [Async / Await](examples/async_await/)
 - [Sync* (Generators)](examples/generators/)
 - [Async*](examples/async_star/)
+- [Await For](examples/await_for/)
 
 TODO: 
 
-- [await for](examples/await-for.html)
 - [yield*](examples/yield-star.html)
 - [Emulating Functions](examples/emulating-functions.html)
 - [Zones](examples/zones.html)

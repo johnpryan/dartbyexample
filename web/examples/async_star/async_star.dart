@@ -7,7 +7,6 @@ main() async {
 }
 
 Stream<String> printNumbersDownAsync(int n) async* {
-
   int k = n;
   while (k >= 0) {
     yield await loadMessageForNumber(k--);
