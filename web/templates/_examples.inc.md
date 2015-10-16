@@ -29,11 +29,11 @@
 - [Streams](examples/streams/)
 - [Iterators](examples/iterators/)
 - [Iterables](examples/iterables/)
-- [async / await](examples/async_await/)
+- [Async / Await](examples/async_await/)
+- [Sync* (Generators)](examples/generators/)
 
 TODO: 
 
-- [Generators](examples/generators.html)
 - [async*](examples/async-star.html)
 - [await for](examples/await-for.html)
 - [yield*](examples/yield-star.html)
