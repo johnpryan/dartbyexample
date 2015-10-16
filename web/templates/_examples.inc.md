@@ -27,11 +27,10 @@
 - [Comments](examples/comments/)
 - [Futures](examples/futures/)
 - [Streams](examples/streams/)
+- [Iterator](examples/iterators/)
 
 TODO: 
 
-- [Broadcast Stream](examples/broadcast-stream.html)
-- [Iterator](examples/iterator.html)
 - [Iterable](examples/iterable.html)
 - [async / await](examples/async-await.html)
 - [Generators](examples/generators.html)

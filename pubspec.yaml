@@ -4,6 +4,8 @@ dependencies:
   flare: "^0.6.0"
   sass: any
 transformers:
+- $dart2js:
+    $exclude: web/examples/**.dart
 - sass
 - flare/metadata_extractor
 - flare/metadata_translator
