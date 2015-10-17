@@ -9,4 +9,6 @@ title: Isolates
 
 ```bash
 $ isolates.dart
+received foo
+received bar
 ```

@@ -19,7 +19,7 @@ echo(SendPort sendPort) async {
   // Open the ReceivePort for incoming messages.
   var port = new ReceivePort();
 
-  // Notify any other isolates what port this isolate listents to.
+  // Notify any other isolates what port this isolate listens to.
   sendPort.send(port.sendPort);
 
   await for (var msg in port) {
