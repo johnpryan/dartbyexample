@@ -6,6 +6,7 @@
 - [Null-Aware Operators](examples/null_aware/)
 - [While](examples/while/)
 - [Switch](examples/switch/)
+- [Exceptions](examples/exceptions/)
 - [List](examples/list/)
 - [Map](examples/map/)
 - [Set](examples/set/)
