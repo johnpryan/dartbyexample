@@ -4,7 +4,7 @@ main() {
   var monday = 'doctor';
   var tuesday;
   var next = tuesday ?? monday;
-  print('next appoinment: $next');
+  print('next appointment: $next');
 
   // the ??= operator assigns a value IFF it is not null
   var wednesday;
