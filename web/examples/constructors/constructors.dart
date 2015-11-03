@@ -5,10 +5,7 @@ class Position {
   int y;
 
   // A simple constructor
-  Position(int x, int y) {
-    this.x = x;
-    this.y = y;
-  }
+  Position(this.x, this.y);
 
   // Additional constructors can be defined using named constructors
   Position.atOrigin() {
