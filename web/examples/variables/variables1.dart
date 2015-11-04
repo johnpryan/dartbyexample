@@ -1,5 +1,5 @@
 main() {
-  // 'var' declares a variable.  Dart will infer the type.
+  // 'var' declares a variable.  dartanalyzer infers the type.
   var a = "initial";
   print(a);
 

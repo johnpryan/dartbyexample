@@ -21,14 +21,14 @@ main() {
 
   try {
     p.peel();
-  } on FoodSpoiledError catch(e) {
+  } on FoodSpoiledError catch(_) {
     print("nope nope nope");
   }
 
   // any non-null object can be thrown:
   try {
     throw("potato");
-  } catch(e) {
+  } catch(_) {
     print("caught a flying potato");
   }
 

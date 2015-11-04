@@ -15,6 +15,7 @@
 - [Optional Parameters](examples/optional_params/)
 - [Lexical Scope](examples/lexical_scope/)
 - [Function Types](examples/typedef/)
+- [Unused Variables](examples/unused_variables/) 
 - [Constants](examples/const/)
 - [Final](examples/final/)
 - [Static](examples/static/)
