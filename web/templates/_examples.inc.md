@@ -24,6 +24,7 @@
 - [Initializer Lists](examples/initializer_lists/)
 - [Getters and Setters](examples/getters_setters/)
 - [Inheritance](examples/inheritance/)
+- [Mixins](examples/mixins/)
 - [Libraries](examples/libraries/)
 - [Pub](examples/pub/)
 - [Comments](examples/comments/)
