@@ -49,6 +49,14 @@ packages:
     description: html5lib
     source: hosted
     version: "0.12.1"
+  http:
+    description: http
+    source: hosted
+    version: "0.11.3+3"
+  http_parser:
+    description: http_parser
+    source: hosted
+    version: "2.0.0"
   intl:
     description: intl
     source: hosted

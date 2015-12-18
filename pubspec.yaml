@@ -3,6 +3,7 @@ dependencies:
   barback: ^0.15.2
   flare: "^0.6.0"
   sass: any
+  http: any
 transformers:
 - $dart2js:
     $exclude: web/examples/**.dart

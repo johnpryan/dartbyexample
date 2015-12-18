@@ -40,3 +40,4 @@
 - [Microtasks](examples/microtasks/)
 - [Isolates](examples/isolates/)
 - [Http Server](examples/http_server/)
+- [Http Requests](examples/http_request/)
