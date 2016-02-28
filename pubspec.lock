@@ -69,7 +69,7 @@ packages:
     description:
       ref: hljs
       resolved-ref: "38df09c8e11ca314d5b424b487311fd494338a0f"
-      url: "git@github.com:johnpryan/dart-markdown.git"
+      url: "https://github.com/johnpryan/dart-markdown.git"
     source: git
     version: "0.8.0"
   meta:
@@ -80,7 +80,7 @@ packages:
     description:
       ref: fix-newlines
       resolved-ref: "04c6201041573e0e62bda9736412512599d0c8ec"
-      url: "git@github.com:johnpryan/mustache.git"
+      url: "https://github.com/johnpryan/mustache.git"
     source: git
     version: "0.2.3"
   path:

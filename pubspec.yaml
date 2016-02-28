@@ -22,9 +22,9 @@ transformers:
 dependency_overrides:
   markdown:
     git:
-      url: git@github.com:johnpryan/dart-markdown.git
+      url: https://github.com/johnpryan/dart-markdown.git
       ref: hljs
   mustache:
     git:
-      url: git@github.com:johnpryan/mustache.git
+      url: https://github.com/johnpryan/mustache.git
       ref: fix-newlines
