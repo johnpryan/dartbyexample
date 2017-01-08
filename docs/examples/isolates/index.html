@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Dart by example</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
+    <!-- End Google Tag Manager -->
+    <h2><a href="../../">Dart By Example: </a> Isolates</h2>
+<pre>
+<code class="hljs dart">import 'dart:async';
+import 'dart:isolate';
+
+main() async {
+  var receivePort = new ReceivePort();
+  await Isolate.spawn(echo, receivePort.sendPort);
+
+  // The 'echo' isolate sends it's SendPort as the first message
+  var sendPort = await receivePort.first;
+
+  var msg = await sendReceive(sendPort, "foo");
+  print('received $msg');
+  msg = await sendReceive(sendPort, "bar");
+  print('received $msg');
+}
+
+// the entry point for the isolate
+echo(SendPort sendPort) async {
+  // Open the ReceivePort for incoming messages.
+  var port = new ReceivePort();
+
+  // Notify any other isolates what port this isolate listens to.
+  sendPort.send(port.sendPort);
+
+  await for (var msg in port) {
+    var data = msg[0];
+    SendPort replyTo = msg[1];
+    replyTo.send(data);
+    if (data == "bar") port.close();
+  }
+}
+
+/// sends a message on a port, receives the response,
+/// and returns the message
+Future sendReceive(SendPort port, msg) {
+  ReceivePort response = new ReceivePort();
+  port.send([msg, response.sendPort]);
+  return response.first;
+}</code>
+</pre>
+<pre><code class="bash">$ isolates.dart
+received foo
+received bar
+</code></pre>
+
+
+    <div class="footer">
+<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+</div>
+</body>

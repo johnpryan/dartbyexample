@@ -9,6 +9,12 @@ packages:
     description: args
     source: hosted
     version: "0.12.2+6"
+  async:
+    description:
+      name: async
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.9.0"
   barback:
     description: barback
     source: hosted
@@ -131,4 +137,5 @@ packages:
     description: yaml
     source: hosted
     version: "1.1.1"
-sdk: ">=1.11.0 <2.0.0"
+sdks:
+  dart: ">=1.11.0 <2.0.0"

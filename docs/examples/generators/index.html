@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Dart by example</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
+    <!-- End Google Tag Manager -->
+    <h2><a href="../../">Dart By Example: </a> Generators</h2>
+<pre>
+<code class="hljs dart">main() {
+  evenNumbersDownFrom(7).forEach(print);
+}
+
+// sync* functions return an iterable
+Iterable&lt;int&gt; evenNumbersDownFrom(int n) sync* {
+
+  // the body isn't executed until an iterator invokes moveNext()
+
+  int k = n;
+  while (k &gt;= 0) {
+    if (k % 2 == 0) {
+
+      // 'yield' suspends the function
+      yield k;
+
+    }
+    k--;
+  }
+
+  // when the end of the function is executed,
+  // there are no more values in the Iterable, and
+  // moveNext() returns false to the caller
+}
+</code>
+</pre>
+<pre><code class="bash">$ dart generators.dart
+6
+4
+2
+0
+</code></pre>
+
+
+    <div class="footer">
+<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+</div>
+</body>

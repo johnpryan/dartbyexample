@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Dart by example</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
+    <!-- End Google Tag Manager -->
+    <h2><a href="../../">Dart By Example: </a> Set</h2>
+<pre>
+<code class="hljs dart">main() {
+  var medals = new Set();
+  medals.add("gold");
+  medals.add("silver");
+  medals.add("bronze");
+
+  // HashSets use the equality operator (==) to determine
+  // if it already contains an item
+  medals.add("gold");
+
+  print('has gold? ${medals.contains("gold")}');
+  print('has platinum? ${medals.contains("platinum")}');
+
+  // Sets can be constructed from Iterables
+  var meals = new Set.from(['breakfast', 'lunch', 'dinner']);
+
+  // Some built-in features:
+  print(medals.union(meals));
+  print(medals.lookup("gold"));
+  print(medals.lookup("platinum"));
+  print(medals.difference(meals));
+}
+</code>
+</pre>
+<pre><code class="bash">$ dart set.dart
+has gold? true
+has platinum? false
+{gold, silver, bronze, breakfast, lunch, dinner}
+gold
+null
+{gold, silver, bronze}
+</code></pre>
+
+
+    <div class="footer">
+<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+</div>
+</body>
