@@ -1,12 +1,9 @@
 name: dartbyexample
 dependencies:
-  tavern: ^3.2.0
+  tavern: ^3.2.1
   http: ^0.12.0
   mustache: ^1.0.0
   markdown: ^2.0.0
 dev_dependencies:
   build_runner: any
   sass_builder: any
-dependency_overrides:
-  tavern:
-    path: /Users/john/code/projects/tavern

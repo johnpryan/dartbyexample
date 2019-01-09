@@ -389,10 +389,10 @@ packages:
   tavern:
     dependency: "direct main"
     description:
-      path: "/Users/john/code/projects/tavern"
-      relative: false
-    source: path
-    version: "3.2.0"
+      name: tavern
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.2.1"
   timing:
     dependency: transitive
     description:
