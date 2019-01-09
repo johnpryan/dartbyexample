@@ -10,7 +10,7 @@ main() async {
   var response = await http.get(requestUrl);
 
   // decode the reponse into a Map
-  var jsonResponse = JSON.decode(response.body);
+  var jsonResponse = json.decode(response.body);
 
   // print a link to the article
   var firstResult = jsonResponse['hits'][0];

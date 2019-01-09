@@ -4,16 +4,12 @@ main() {
 
 // sync* functions return an iterable
 Iterable<int> evenNumbersDownFrom(int n) sync* {
-
   // the body isn't executed until an iterator invokes moveNext()
-
   int k = n;
   while (k >= 0) {
     if (k % 2 == 0) {
-
       // 'yield' suspends the function
       yield k;
-
     }
     k--;
   }

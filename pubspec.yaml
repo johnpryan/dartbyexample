@@ -1,30 +1,12 @@
 name: dartbyexample
 dependencies:
-  barback: ^0.15.2
-  flare: "^0.6.0"
-  sass: any
-  http: any
-transformers:
-- $dart2js:
-    $exclude: web/examples/**.dart
-- sass
-- flare/metadata_extractor
-- flare/metadata_translator
-- dartbyexample/bracket_transformer
-- flare/markdown_transformer
-- flare/posts_transformer:
-    root: web/examples
-    layout: web/examples/_example.tmpl.html
-- flare/partials_transformer
-- flare/metadata_aggregator
-- flare/mustache_transformer
-- flare/cleanup_transformer
+  tavern: ^3.2.0
+  http: ^0.12.0
+  mustache: ^1.0.0
+  markdown: ^2.0.0
+dev_dependencies:
+  build_runner: any
+  sass_builder: any
 dependency_overrides:
-  markdown:
-    git:
-      url: https://github.com/johnpryan/dart-markdown.git
-      ref: hljs
-  mustache:
-    git:
-      url: https://github.com/johnpryan/mustache.git
-      ref: fix-newlines
+  tavern:
+    path: /Users/john/code/projects/tavern

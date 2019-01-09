@@ -1,11 +1,13 @@
-<!--
+---
 title: Generators
--->
+template: web/templates/_example.mustache
+---
 
-<pre>
-<code class="hljs dart">{{> generators.dart}}
-</code>
-</pre>
+{{> web/templates/_example_header.htmlcontent}}
+
+```dart
+{{> web/examples/generators/generators.dart}}
+```
 
 ```bash
 $ dart generators.dart
@@ -14,3 +16,5 @@ $ dart generators.dart
 2
 0
 ```
+
+{{> web/templates/_footer.md}}
