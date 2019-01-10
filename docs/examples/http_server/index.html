@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Dart by example</title>
+    <title>Dart by example: Http Server</title>
     <link rel="stylesheet" href="../../site.css">
     <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
     <script src="../../hljs/highlight.pack.js"></script>
@@ -8,24 +8,15 @@
 </head>
 <body>
 <div class="example">
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
-    <!-- End Google Tag Manager -->
-    <h2><a href="../../">Dart By Example: </a> Http Server</h2>
-<pre>
+    <h2><a href="/">Dart by Example</a>: Http Server</h2>
+    <pre>
 <code class="hljs dart">import 'dart:io';
 
 main() async {
   var server = await HttpServer.bind(InternetAddress.ANY_IP_V4, 8777);
   print('serving on port ${server.port}');
 
-  // HttpServer extends Stream&lt;HttpRequest&gt;, so using await-for
+  // HttpServer extends Stream<HttpRequest>, so using await-for
   // will run the loop body when a request is added to the stream.
   await for (HttpRequest req in server) {
     // resposne
@@ -36,7 +27,7 @@ main() async {
 }
 </code>
 </pre>
-<pre><code class="bash">$ dart http_server.dart
+<pre><code class="language-bash">$ dart http_server.dart
 serving on port 8777
 </code></pre>
 <p>opening <code>localhost:8777</code>:</p>
@@ -45,6 +36,9 @@ serving on port 8777
 
 
     <div class="footer">
-<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
 </div>
 </body>
