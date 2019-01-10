@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Dart by example</title>
+    <title>Dart by example: Futures</title>
     <link rel="stylesheet" href="../../site.css">
     <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
     <script src="../../hljs/highlight.pack.js"></script>
@@ -8,17 +8,8 @@
 </head>
 <body>
 <div class="example">
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
-    <!-- End Google Tag Manager -->
-    <h2><a href="../../">Dart By Example: </a> Futures</h2>
-<pre>
+    <h2><a href="/">Dart by Example</a>: Futures</h2>
+    <pre>
 <code class="hljs dart">import 'dart:async';
 
 main() {
@@ -32,7 +23,7 @@ main() {
   // Futures can be chained:
   onReady
       .then(print)
-      .then((_) =&gt; print('done!'));
+      .then((_) => print('done!'));
 
   // Futures can throw errors:
   onReady.catchError(() {
@@ -40,7 +31,7 @@ main() {
   });
 }
 
-Future&lt;String&gt; get onReady {
+Future<String> get onReady {
   var dur = new Duration(seconds: 1);
   var oneSecond = new Future.delayed(dur);
 
@@ -51,7 +42,7 @@ Future&lt;String&gt; get onReady {
   });
 }</code>
 </pre>
-<pre><code class="bash">$ dart futures.dart
+<pre><code class="language-bash">$ dart futures.dart
 loaded!
 loaded!
 done!
@@ -59,6 +50,9 @@ done!
 
 
     <div class="footer">
-<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
 </div>
 </body>

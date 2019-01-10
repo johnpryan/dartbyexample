@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Dart by example</title>
+    <title>Dart by example: Inheritance</title>
     <link rel="stylesheet" href="../../site.css">
     <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
     <script src="../../hljs/highlight.pack.js"></script>
@@ -8,17 +8,8 @@
 </head>
 <body>
 <div class="example">
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
-    <!-- End Google Tag Manager -->
-    <h2><a href="../../">Dart By Example: </a> Inheritance</h2>
-<pre>
+    <h2><a href="/">Dart by Example</a>: Inheritance</h2>
+    <pre>
 <code class="hljs dart">/// Abstract classes can't be instantiated,
 /// but can contain some implementation.
 abstract class Animal {
@@ -30,18 +21,18 @@ abstract class Animal {
 /// Classes can be extended to share functionality
 class Dog extends Animal {
   Dog(String name) : super(name);
-  String get noise =&gt; 'bark!';
+  String get noise => 'bark!';
 }
 
 /// Classes can implement other classes if they
 /// define all of the fields
 class Pikachu implements Animal {
   String name = 'Pikachu';
-  String get noise =&gt; 'pika!';
+  String get noise => 'pika!';
 }
 
-void releaseAnimals(Iterable&lt;Animal&gt; animals) {
-  animals.forEach((a) =&gt; print('${a.name} has been released: ${a.noise}'));
+void releaseAnimals(Iterable<Animal> animals) {
+  animals.forEach((a) => print('${a.name} has been released: ${a.noise}'));
 }
 
 main() {
@@ -51,13 +42,16 @@ main() {
 }
 </code>
 </pre>
-<pre><code class="bash">$ dart inheritance.dart
+<pre><code class="language-bash">$ dart inheritance.dart
 Barry has been released: bark!
 Pikachu has been released: pika!
 </code></pre>
 
 
     <div class="footer">
-<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
 </div>
 </body>

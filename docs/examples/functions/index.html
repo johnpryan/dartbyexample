@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Dart by example</title>
+    <title>Dart by example: Functions</title>
     <link rel="stylesheet" href="../../site.css">
     <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
     <script src="../../hljs/highlight.pack.js"></script>
@@ -8,22 +8,13 @@
 </head>
 <body>
 <div class="example">
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
-    <!-- End Google Tag Manager -->
-    <h2><a href="../../">Dart By Example: </a> Functions</h2>
-<pre>
+    <h2><a href="/">Dart by Example</a>: Functions</h2>
+    <pre>
 <code class="hljs dart">// A simple function definition
-yell(str) =&gt; str.toUpperCase();
+yell(str) => str.toUpperCase();
 
 // Functions can have type annotations
-List&lt;String&gt; lines(String str) {
+List<String> lines(String str) {
   return str.split('\n');
 }
 
@@ -32,7 +23,7 @@ main() {
   print(yell(poemLines.first));
 
   // functions are first-class
-  var whisper = (String str) =&gt; str.toLowerCase();
+  var whisper = (String str) => str.toLowerCase();
   print(poemLines.map(whisper).last);
 }
 
@@ -42,13 +33,16 @@ Earns his living
 Noiselessly.''';
 </code>
 </pre>
-<pre><code class="bash">$ dart functions.dart
+<pre><code class="language-bash">$ dart functions.dart
 THE WREN
 noiselessly.
 </code></pre>
 
 
     <div class="footer">
-<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
 </div>
 </body>

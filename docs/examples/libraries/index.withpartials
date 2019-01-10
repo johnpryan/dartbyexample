@@ -1,0 +1,44 @@
+
+libraries are imported using the `import` keyword:
+
+<pre>
+<code class="hljs dart">// app.dart
+
+library app;
+
+import 'utils.dart';
+
+main() {
+  print(shout('Welcome'));
+  print(whisper('Welcome'));
+}
+</code>
+</pre>
+
+libraries can be split into *parts* using the `part` and `part of` syntax:
+
+<pre>
+<code class="hljs dart">// utils.dart
+
+library utils;
+
+part 'whisper.dart';
+
+String shout(String inp) => inp.toUpperCase() + '!!!';
+</code>
+</pre>
+
+<pre>
+<code class="hljs dart">// whisper.dart
+
+part of utils;
+
+String whisper(String inp) => inp.toLowerCase() + '...';
+</code>
+</pre>
+
+```bash
+$ app.dart
+WELCOME!!!
+welcome...
+```

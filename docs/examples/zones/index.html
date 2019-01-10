@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Dart by example</title>
+    <title>Dart by example: Zones</title>
     <link rel="stylesheet" href="../../site.css">
     <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
     <script src="../../hljs/highlight.pack.js"></script>
@@ -8,54 +8,11 @@
 </head>
 <body>
 <div class="example">
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLPW3F"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WLPW3F');</script>
-    <!-- End Google Tag Manager -->
-    <h2><a href="../../">Dart By Example: </a> Zones</h2>
-<pre>
-<code class="hljs dart">import 'dart:async';
-
-main() {
-  // All Dart programs implicitly run in a root zone.
-  // runZoned creates a new zone.  The new zone is a child of the root zone.
-  runZoned(() async {
-    await runServer();
-  },
-  // Any uncaught errors in the child zone are sent to the [onError] handler.
-      onError: (e, stacktrace) {
-    print('caught: $e');
-  },
-  // a ZoneSpecification allows for overriding functionality, like print()
-    zoneSpecification: new ZoneSpecification(print: (Zone self, ZoneDelegate parent, Zone zone, String message) {
-      parent.print(zone, '${new DateTime.now()}: $message');
-    })
-  );
-}
-
-Future runServer() async {
-  await for (var r in requests()) {
-    print('received request: $r');
-    if (r == 'bar') throw('unrecognized request: $r');
-  }
-}
-
-Stream&lt;String&gt; requests() async* {
-  var dur = new Duration(milliseconds: 100);
-
-  await new Future.delayed(dur);
-  yield 'foo';
-
-  await new Future.delayed(dur);
-  yield 'bar';
-}</code>
+    <h2><a href="/">Dart by Example</a>: Zones</h2>
+    <pre>
+<code class="hljs dart">null</code>
 </pre>
-<pre><code class="bash">$ dart zones.dart
+<pre><code class="language-bash">$ dart zones.dart
 2015-10-16 15:51:25.893: received request: foo
 2015-10-16 15:51:25.998: received request: bar
 caught: unrecognized request: bar
@@ -63,6 +20,9 @@ caught: unrecognized request: bar
 
 
     <div class="footer">
-<p>by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a></p>
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
 </div>
 </body>
