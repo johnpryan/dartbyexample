@@ -1,9 +1,10 @@
-<!--
+---
 title: Map
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> map.dart}}
+<code class="hljs dart">{{> web/examples/map/map.dart}}
 </code>
 </pre>
 

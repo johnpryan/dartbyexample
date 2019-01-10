@@ -1,9 +1,10 @@
-<!--
+---
 title: Getters and Setters
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> getters_setters.dart}}
+<code class="hljs dart">{{> web/examples/getters_setters/getters_setters.dart}}
 </code>
 </pre>
 

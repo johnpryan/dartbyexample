@@ -1,6 +1,7 @@
-<!--
+---
 title: Pub
--->
+template: web/templates/_example.mustache
+---
 
 Pub is the package manager for Dart.
 

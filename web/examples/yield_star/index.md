@@ -1,9 +1,10 @@
-<!--
+---
 title: Yield*
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> yield_each.dart}}
+<code class="hljs dart">{{> web/examples/yield_star/yield_each.dart}}
 </code>
 </pre>
 

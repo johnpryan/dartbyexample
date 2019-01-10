@@ -1,9 +1,10 @@
-<!--
+---
 title: Exceptions
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> exceptions.dart}}
+<code class="hljs dart">{{> web/examples/exceptions/exceptions.dart}}
 </code>
 </pre>
 

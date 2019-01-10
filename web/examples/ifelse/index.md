@@ -3,7 +3,7 @@ title: If / Else
 -->
 
 <pre>
-<code class="hljs dart">{{> ifelse.dart}}
+<code class="hljs dart">{{> web/examples/ifelse/ifelse.dart}}
 </code>
 </pre>
 

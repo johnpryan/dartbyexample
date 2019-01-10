@@ -1,9 +1,10 @@
-<!--
+---
 title: Set
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> set.dart}}
+<code class="hljs dart">{{> web/examples/set/set.dart}}
 </code>
 </pre>
 

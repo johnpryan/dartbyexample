@@ -1,9 +1,10 @@
-<!--
+---
 title: Unused Variables
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> unnamed_variables.dart}}
+<code class="hljs dart">{{> web/examples/unused_variables/unnamed_variables.dart}}
 </code>
 </pre>
 

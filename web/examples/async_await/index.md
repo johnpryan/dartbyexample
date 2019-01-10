@@ -1,9 +1,10 @@
-<!--
+---
 title: Async / Await
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> async_await.dart}}
+<code class="hljs dart">{{> web/examples/async_await/async_await.dart}}
 </code>
 </pre>
 

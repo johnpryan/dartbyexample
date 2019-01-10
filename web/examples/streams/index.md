@@ -1,9 +1,10 @@
-<!--
+---
 title: Streams
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> streams.dart}}
+<code class="hljs dart">{{> web/examples/streams/streams.dart}}
 </code>
 </pre>
 

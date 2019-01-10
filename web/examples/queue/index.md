@@ -1,9 +1,10 @@
-<!--
+---
 title: Queue
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> queue.dart}}
+<code class="hljs dart">{{> web/examples/queue/queue.dart}}
 </code>
 </pre>
 

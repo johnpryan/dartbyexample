@@ -1,9 +1,10 @@
-<!--
+---
 title: While
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> while.dart}}
+<code class="hljs dart">{{> web/examples/index/while.dart}}
 </code>
 </pre>
 

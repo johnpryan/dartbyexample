@@ -1,9 +1,10 @@
-<!--
+---
 title: Mixins
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> mixins.dart}}
+<code class="hljs dart">{{> web/examples/mixins/mixins.dart}}
 </code>
 </pre>
 

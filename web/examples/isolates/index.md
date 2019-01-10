@@ -1,9 +1,10 @@
-<!--
+---
 title: Isolates
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> isolates.dart}}
+<code class="hljs dart">{{> web/examples/isolates/isolates.dart}}
 </code>
 </pre>
 

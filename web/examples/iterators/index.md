@@ -1,9 +1,10 @@
-<!--
+---
 title: Iterators
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> iterators.dart}}
+<code class="hljs dart">{{> web/examples/iterators/iterators.dart}}
 </code>
 </pre>
 

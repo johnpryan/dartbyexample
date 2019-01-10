@@ -1,9 +1,10 @@
-<!--
+---
 title: Zones
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> zones.dart}}
+<code class="hljs dart">{{> web/examples/zomes/zones.dart}}
 </code>
 </pre>
 

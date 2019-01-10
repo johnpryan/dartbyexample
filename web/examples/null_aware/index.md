@@ -1,9 +1,10 @@
-<!--
+---
 title: Null-Aware Operators
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> nullaware1.dart}}
+<code class="hljs dart">{{> web/examples/null_aware/nullaware1.dart}}
 </code>
 </pre>
 

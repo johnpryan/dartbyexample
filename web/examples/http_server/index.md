@@ -1,9 +1,10 @@
-<!--
+---
 title: Http Server
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> http_server.dart}}
+<code class="hljs dart">{{> web/examples/http_server/http_server.dart}}
 </code>
 </pre>
 

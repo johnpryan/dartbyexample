@@ -1,12 +1,13 @@
-<!--
+---
 title: Lexical Scope
--->
+template: web/templates/_example.mustache
+---
 
 Dart is a lexically scoped language.
 Loops that declare their variable will have a new version of that variable for each iteration.
 
 <pre>
-<code class="hljs dart">{{> lexical_scope.dart}}
+<code class="hljs dart">{{> web/examples/lexical_scope/lexical_scope.dart}}
 </code>
 </pre>
 
@@ -20,7 +21,7 @@ $ dart lexical_scope.dart
 Compared to javascript:
 
 <pre>
-<code class="hljs dart">{{> lexical_scope.js}}
+<code class="hljs dart">{{> web/examples/lexical_scope/lexical_scope.js}}
 </code>
 </pre>
 

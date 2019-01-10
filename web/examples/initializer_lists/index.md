@@ -1,9 +1,10 @@
-<!--
+---
 title: Initializer Lists
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> initializer_lists.dart}}
+<code class="hljs dart">{{> web/examples/initializer_lists/initializer_lists.dart}}
 </code>
 </pre>
 

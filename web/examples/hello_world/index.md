@@ -1,12 +1,13 @@
-<!--
+---
 title: Hello World
--->
+template: web/templates/_example.mustache
+---
 
-<pre><code class="hljs dart">{{> hello_world.dart}}</code></pre>
+<pre><code class="hljs dart">{{> web/examples/hello_world/hello_world.dart}}</code></pre>
 
 You can also use arrow function syntax:
 
-<pre><code class="hljs dart">{{> hello_world2.dart}}</code></pre>
+<pre><code class="hljs dart">{{> web/examples/hello_world/hello_world2.dart}}</code></pre>
 
 ```bash
 $ dart hello_world.dart

@@ -1,9 +1,10 @@
-<!--
+---
 title: Inheritance
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> inheritance.dart}}
+<code class="hljs dart">{{> web/examples/inheritance/inheritance.dart}}
 </code>
 </pre>
 

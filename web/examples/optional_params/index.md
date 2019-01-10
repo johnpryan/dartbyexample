@@ -1,9 +1,10 @@
-<!--
+---
 title: Optional Parameters
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> optional_params.dart}}
+<code class="hljs dart">{{> web/examples/optional_params/optional_params.dart}}
 </code>
 </pre>
 

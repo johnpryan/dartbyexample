@@ -1,9 +1,10 @@
-<!--
+---
 title: Classes
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> classes.dart}}
+<code class="hljs dart">{{> web/examples/classes/classes.dart}}
 </code>
 </pre>
 

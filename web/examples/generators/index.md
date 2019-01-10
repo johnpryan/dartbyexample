@@ -3,8 +3,6 @@ title: Generators
 template: web/templates/_example.mustache
 ---
 
-{{> web/templates/_example_header.htmlcontent}}
-
 ```dart
 {{> web/examples/generators/generators.dart}}
 ```
@@ -16,5 +14,3 @@ $ dart generators.dart
 2
 0
 ```
-
-{{> web/templates/_footer.md}}

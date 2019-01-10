@@ -1,9 +1,10 @@
-<!--
+---
 title: Await For
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> await_for.dart}}
+<code class="hljs dart">{{> web/examples/await_for/await_for.dart}}
 </code>
 </pre>
 

@@ -1,8 +1,9 @@
-<!--
+---
 title: HTTP Requests
--->
+template: web/templates/_example.mustache
+---
 
-<pre><code class="hljs dart">{{> http_request.dart}}</code></pre>
+<pre><code class="hljs dart">{{> web/examples/http_request/http_request.dart}}</code></pre>
 
 ```bash
 $ dart http_request.dart

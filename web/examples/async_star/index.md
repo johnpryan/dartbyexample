@@ -1,9 +1,10 @@
-<!--
+---
 title: Async*
--->
+template: web/templates/_example.mustache
+---
 
 <pre>
-<code class="hljs dart">{{> async_star.dart}}
+<code class="hljs dart">{{> web/examples/async_star/async_star.dart}}
 </code>
 </pre>
 
