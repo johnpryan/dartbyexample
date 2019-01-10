@@ -1,0 +1,11 @@
+
+<pre>
+<code class="hljs dart">{{> web/examples/isolates/isolates.dart}}
+</code>
+</pre>
+
+```bash
+$ isolates.dart
+received foo
+received bar
+```

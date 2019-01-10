@@ -1,0 +1,33 @@
+<p>Dart is a lexically scoped language.
+Loops that declare their variable will have a new version of that variable for each iteration.</p><pre>
+<code class="hljs dart">main() {
+  var functions = [];
+
+  for (var i = 0; i < 3; i++) {
+    functions.add(() => i);
+  }
+
+  functions.forEach((fn) => print(fn()));
+
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart lexical_scope.dart
+0
+1
+2
+</code></pre>
+<p>Compared to javascript:</p><pre>
+<code class="hljs dart">var functions = [];
+
+for (var i = 0; i < 3; i++) {
+    functions[i] = function() { return i };
+}
+
+functions.forEach(function (fn) { console.log(fn())});</code>
+</pre>
+<pre><code class="language-bash">$ node lexical_scope.js
+3
+3
+3
+</code></pre>

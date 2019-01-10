@@ -1,0 +1,17 @@
+---
+title: List
+template: web/templates/_example.mustache
+---
+
+<pre>
+<code class="hljs dart">{{> web/examples/list/list.dart}}
+</code>
+</pre>
+
+```bash
+$ dart list.dart
+[a, b, c]
+[grow, able]
+[also, growable, 42]
+error
+```

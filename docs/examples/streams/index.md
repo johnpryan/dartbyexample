@@ -1,0 +1,26 @@
+---
+title: Streams
+template: web/templates/_example.mustache
+---
+
+<pre>
+<code class="hljs dart">{{> web/examples/streams/streams.dart}}
+</code>
+</pre>
+
+```bash
+$ dart streams.dart
+s1: 1
+s3: 2
+s4: 1
+s4: 1
+s1: 3
+s3: 4
+s4: 2
+s4: 2
+s1: 5
+s3: 10
+s2: tick!
+s2: tick!
+s2: tick!
+```

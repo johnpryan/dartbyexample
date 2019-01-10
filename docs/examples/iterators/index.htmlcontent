@@ -1,0 +1,23 @@
+<pre>
+<code class="hljs dart">main() {
+  var iter = [1,5,10].iterator;
+  while(iter.moveNext()) {
+    print(iter.current);
+  }
+
+  var iterable = new Iterable.generate(3);
+  var iter2 = iterable.map((n) => n*2).iterator;
+  while(iter2.moveNext()) {
+    print(iter2.current);
+  }
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart iterators.dart
+1
+5
+10
+0
+2
+4
+</code></pre>
