@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Dart by example: Inheritance</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: Inheritance</h2>
+    <pre>
+<code class="hljs dart">/// Abstract classes can't be instantiated,
+/// but can contain some implementation.
+abstract class Animal {
+  String name;
+  Animal(this.name);
+  String get noise;
+}
+
+/// Classes can be extended to share functionality
+class Dog extends Animal {
+  Dog(String name) : super(name);
+  String get noise => 'bark!';
+}
+
+/// Classes can implement other classes if they
+/// define all of the fields
+class Pikachu implements Animal {
+  String name = 'Pikachu';
+  String get noise => 'pika!';
+}
+
+void releaseAnimals(Iterable<Animal> animals) {
+  animals.forEach((a) => print('${a.name} has been released: ${a.noise}'));
+}
+
+main() {
+  var barry = new Dog('Barry');
+  var pika = new Pikachu();
+  releaseAnimals([barry, pika]);
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart inheritance.dart
+Barry has been released: bark!
+Pikachu has been released: pika!
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>

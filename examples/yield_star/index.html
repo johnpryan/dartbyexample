@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Dart by example: Yield*</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: Yield*</h2>
+    <pre>
+<code class="hljs dart">import 'dart:async';
+
+main() async {
+  await for (int i in numbersDownFrom(5)) {
+    print('$i bottles of beer');
+  }
+}
+
+Stream<int> numbersDownFrom(int n) async* {
+  if (n >= 0) {
+    await new Future.delayed(new Duration(milliseconds: 100));
+    yield n;
+    yield* numbersDownFrom(n - 1);
+  }
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart yield_each.dart
+5 bottles of beer
+4 bottles of beer
+3 bottles of beer
+2 bottles of beer
+1 bottles of beer
+0 bottles of beer
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>

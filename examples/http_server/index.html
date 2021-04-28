@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Dart by example: Http Server</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: Http Server</h2>
+    <pre>
+<code class="hljs dart">import 'dart:io';
+
+main() async {
+  var server = await HttpServer.bind(InternetAddress.ANY_IP_V4, 8777);
+  print('serving on port ${server.port}');
+
+  // HttpServer extends Stream<HttpRequest>, so using await-for
+  // will run the loop body when a request is added to the stream.
+  await for (HttpRequest req in server) {
+    // resposne
+    req.response
+      ..write("welcome to my dart server")
+      ..close();
+  }
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart http_server.dart
+serving on port 8777
+</code></pre>
+<p>opening <code>localhost:8777</code>:</p>
+<pre><code>welcome to my dart server
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>

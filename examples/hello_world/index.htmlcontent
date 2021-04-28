@@ -1,0 +1,10 @@
+<pre><code class="hljs dart">main() {
+  print('Hello, World!');
+}
+</code></pre>
+<p>You can also use arrow function syntax:</p><pre><code class="hljs dart">main() => print('Hello, World!');
+</code></pre>
+<pre><code class="language-bash">$ dart hello_world.dart
+Hello, World!
+</code></pre>
+<p><a href="https://dartpad.dartlang.org/?source=c4c2f4d1-ecb7-4f12-9dec-12f1294cdcc0">Edit on DartPad</a></p>

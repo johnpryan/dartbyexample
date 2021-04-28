@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Dart by example: Libraries</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: Libraries</h2>
+    <p>libraries are imported using the <code>import</code> keyword:</p><pre>
+<code class="hljs dart">// app.dart
+
+library app;
+
+import 'utils.dart';
+
+main() {
+  print(shout('Welcome'));
+  print(whisper('Welcome'));
+}
+</code>
+</pre>
+<p>libraries can be split into <em>parts</em> using the <code>part</code> and <code>part of</code> syntax:</p><pre>
+<code class="hljs dart">// utils.dart
+
+library utils;
+
+part 'whisper.dart';
+
+String shout(String inp) => inp.toUpperCase() + '!!!';
+</code>
+</pre><pre>
+<code class="hljs dart">// whisper.dart
+
+part of utils;
+
+String whisper(String inp) => inp.toLowerCase() + '...';
+</code>
+</pre>
+<pre><code class="language-bash">$ app.dart
+WELCOME!!!
+welcome...
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>

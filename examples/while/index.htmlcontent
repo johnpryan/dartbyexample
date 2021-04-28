@@ -1,0 +1,10 @@
+<pre>
+<code class="hljs dart">null</code>
+</pre>
+<pre><code class="language-bash">$ dart while.dart
+while 1
+while 2
+dowhile 0
+dowhile 1
+dowhile 2
+</code></pre>

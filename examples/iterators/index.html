@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Dart by example: Iterators</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: Iterators</h2>
+    <pre>
+<code class="hljs dart">main() {
+  var iter = [1,5,10].iterator;
+  while(iter.moveNext()) {
+    print(iter.current);
+  }
+
+  var iterable = new Iterable.generate(3);
+  var iter2 = iterable.map((n) => n*2).iterator;
+  while(iter2.moveNext()) {
+    print(iter2.current);
+  }
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart iterators.dart
+1
+5
+10
+0
+2
+4
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>

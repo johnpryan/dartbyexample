@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Dart by example: Async*</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: Async*</h2>
+    <pre>
+<code class="hljs dart">import 'dart:async';
+
+main() async {
+  await for (String msg in printNumbersDownAsync(5)) {
+    print(msg);
+  }
+}
+
+Stream<String> printNumbersDownAsync(int n) async* {
+  int k = n;
+  while (k >= 0) {
+    yield await loadMessageForNumber(k--);
+  }
+}
+
+Future<String> loadMessageForNumber(int i) async {
+  await new Future.delayed(new Duration(milliseconds: 50));
+  if (i % 2 == 0) {
+    return '$i is even';
+  } else {
+    return '$i is odd';
+  }
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart async_star.dart
+5 is odd
+4 is even
+3 is odd
+2 is even
+1 is odd
+0 is even
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>

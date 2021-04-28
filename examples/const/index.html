@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Dart by example: Constants</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: Constants</h2>
+    <p>In dart, compile-time constants can be created as long
+as the object's deep structure can be determined at compile time.</p><pre>
+<code class="hljs dart">import 'dart:math';
+
+// compile-time constants are defined using 'const'
+const name = "greg";
+
+// Objects can also be declared at compile-time
+const Rectangle<int> bounds = const Rectangle(0, 0, 5, 5);
+
+main() {
+  print(name);
+  print(bounds);
+}
+</code>
+</pre>
+<pre><code class="language-bash">$ dart const.dart
+greg
+Rectangle (0, 0) 5 x 5
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>
