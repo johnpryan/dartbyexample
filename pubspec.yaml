@@ -1,4 +1,7 @@
 name: dartbyexample
+publish_to: none
+environment:
+  sdk: '>=2.10.0 <3.0.0'
 dependencies:
   tavern: ^3.2.1
   http: ^0.12.0
