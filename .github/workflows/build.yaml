@@ -17,6 +17,10 @@ jobs:
         run: |
           dart pub get
           pub run build_runner build --release --output build/
+        # The symlink can't be resolved by the Deploy action, remove the
+        # symlink and copy the packages directory.
+          rm build/web/packages
+          mv build/packages build/web/packages
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
