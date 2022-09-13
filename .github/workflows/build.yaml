@@ -18,7 +18,7 @@ jobs:
         # symlink and copy the packages directory.
         run: |
           dart pub get
-          pub run build_runner build --release --output build/
+          dart pub run build_runner build --release --output build/
           rm build/web/packages
           mv build/packages build/web/packages
 
