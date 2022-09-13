@@ -4,7 +4,7 @@ template: web/templates/_example.mustache
 ---
 
 <pre>
-<code class="hljs dart">{{> web/examples/index/while.dart}}
+<code class="hljs dart">{{> web/examples/while/while.dart}}
 </code>
 </pre>
 

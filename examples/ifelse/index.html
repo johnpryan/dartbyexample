@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Dart by example: If Else</title>
+    <link rel="stylesheet" href="../../site.css">
+    <link rel="stylesheet" href="../../hljs/styles/mono-blue.css">
+    <script src="../../hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="example">
+    <h2><a href="/">Dart by Example</a>: If Else</h2>
+    <pre>
+<code class="hljs dart">main() {
+
+  if (7 % 2 == 0) {
+    print('7 is even');
+  } else {
+    print('7 is odd');
+  }
+
+  if (8 % 4 == 0) {
+    print('8 is divisble by 4');
+  }
+
+  // ternary operators
+  var isAlive = true;
+  var monday = isAlive ? 'doctor' : null;
+  print('monday appointment: $monday');
+}
+</code>
+</pre>
+<pre><code>$ dart ifelse.dart
+7 is odd
+8 is divisble by 4
+monday appointment: doctor
+</code></pre>
+
+
+    <div class="footer">
+
+        by <a href="http://twitter.com/jryanio">@jryanio</a> | <a href="http://github.com/johnpryan/dartbyexample">source</a> | <a href="https://github.com/johnpryan/dartbyexample/blob/master/LICENSE">license</a>
+
+    </div>
+</div>
+</body>
