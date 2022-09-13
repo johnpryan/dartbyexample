@@ -1,6 +1,7 @@
-<!--
-title: If / Else
--->
+---
+title: If Else
+template: web/templates/_example.mustache
+---
 
 <pre>
 <code class="hljs dart">{{> web/examples/ifelse/ifelse.dart}}
