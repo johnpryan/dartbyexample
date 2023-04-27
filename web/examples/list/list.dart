@@ -7,7 +7,7 @@ main() {
   list[2] = 'c';
   print(list);
 
-  // Leaving out the lenght creates a growable list.
+  // Leaving out the length creates a growable list.
   var growable = new List();
   growable.addAll(['grow', 'able']);
   print(growable);
