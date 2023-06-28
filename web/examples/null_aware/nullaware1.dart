@@ -12,7 +12,7 @@ main() {
   print('next appointment: $next');
 
   // the ? operator calls a function IFF the object is not null
-  String thursday;
+  String? thursday;
   var length = thursday?.length;
   print('length: $length');
 
